@@ -1,0 +1,54 @@
+
+div {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px;
+    padding-bottom: 0.5rem;
+    max-width: 400px;
+    margin: 1.5rem auto;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #78ad7e;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #97eba0;
+  }
+  
+  button.show {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  button.show:hover {
+    background-color: #999;
+  }
+  

@@ -1,0 +1,29 @@
+header {
+    background-color: wheat;
+    color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img {
+    width: 3vh;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.header-right a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.header-right a:hover {
+    text-decoration: underline;
+}
+h1 {
+    margin-left: 5%;
+    font-size: 24px;
+    font-family: 'Roboto Condensed', system-ui, 'Helvetica Neue', sans-serif;
+    font-size: 5vh;
+}
