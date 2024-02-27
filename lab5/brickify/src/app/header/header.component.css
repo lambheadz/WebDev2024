@@ -1,0 +1,15 @@
+header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    border-bottom: 1px solid wheat;
+}
+
+header p {
+    font-size: 32px;
+    font-weight: 600;
+    color: saddlebrown;
+}
