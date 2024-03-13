@@ -18,6 +18,9 @@
         <fa-icon [icon]="heart"></fa-icon>
       </button>
       <button (click)="handleDelete()">X</button>
+      <div class="buttons">
+        <button type="button" (click)="share(product.link)">Share</button>
+      </div>
     </mat-card-actions>
   </mat-card-content>
 </mat-card>
