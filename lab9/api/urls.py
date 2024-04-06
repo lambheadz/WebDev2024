@@ -1,11 +1,12 @@
 from django.urls import path
 from .views import *
+from . import views
 
 urlpatterns = [
-    path('/companies/', get_companies),
-    path('/companies/<int:id>/', get_company),
-    path('/companies/<int:id>/vacancies/', get_company_vacancies),
-    path('/vacancies/', get_vacancies),
-    path('/vacancies/<int:id>/', get_vacancy),
-    path('/vacancies/top_ten/', get_top10_vacancies)
+    path('companies/', views.get_companies),
+    path('companies/<int:id>/', views.get_company),
+    path('companies/<int:id>/vacancies/', views.get_company_vacancies),
+    path('vacancies/', views.get_vacancies),
+    path('vacancies/<int:id>/', views.get_vacancy),
+    path('vacancies/top_ten/', views.get_top10_vacancies)
 ]
